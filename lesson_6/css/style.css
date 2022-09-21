@@ -1,0 +1,223 @@
+
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+font-display: swap;
+font-weight: 900;
+font-style: normal;
+
+}
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+font-display: swap;
+font-weight: 700;
+font-style: normal;
+
+}
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+
+}
+
+body{
+   font-family:"Lato", sans-serif;
+   width: 1920px; 
+   height: 4617px;
+   font-weight: 400;
+   margin-left: 17.96%;
+   margin-right: 39.84%;
+   /* наружные отступы слева и справа берем в % от обшей ширины т.е от 1920 px */
+   
+}
+
+*{
+   width: 810px;
+   text-align: left;
+}
+header{
+   font-family:"Lato";
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+     /* 130% от размера шрифта, т.е. можно написать просто 59.8px (46*130%) */ 
+   font-style: normal;
+   color:  #1E212C;
+   box-sizing: border-box;
+   height: 210px;
+   margin-top: 80px;
+   margin-bottom: 40px;
+   padding-top: 90px;
+   padding-bottom: 90px;
+
+}
+
+img{
+   box-sizing: border-box;
+   margin-bottom: 60px;
+   border-radius: 4px;
+   max-width: 810px;
+   max-height: 360px;
+}
+.text1{
+   font-family:"Lato";
+   font-weight: 700;
+   font-size: 20px;
+   font-style: normal;
+   line-height: 150%;
+   /* 150% от размера шрифта, т.е. можно написать просто 30px (20*150%) */
+   color:  #1E212C;
+   box-sizing: border-box;
+   height: 90px;
+   margin-bottom: 24px;
+
+}
+.text2{
+   font-family: "Lato";
+   font-weight: 400;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 160%;
+   color: #1E212C;
+   box-sizing: border-box;
+   height: 182px;
+   margin-bottom: 48px;
+
+}
+.subtext1{
+   margin-bottom: 20px;
+}
+
+.text3{
+   font-family:"Lato";
+   font-weight: 700;
+   font-size: 20px;
+   font-style: normal;
+   line-height: 150%;
+   color: #1E212C;
+   height: 120px;
+   margin-bottom: 48px;
+   box-sizing: border-box;
+   padding-left: 40px;
+
+}
+
+.text4{
+   font-family:"Lato";
+   font-weight: 400;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 160%;
+   color: #424551;
+   box-sizing: border-box;
+   height: 52px;
+   margin-bottom: 24px;
+
+}
+   .point{
+   text-indent: 30px;
+   font-family:"Lato";
+   font-weight: 400;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 160%;
+   color: #424551;
+} 
+
+.text5{
+   margin-bottom: 24px;
+   height: 116px;
+}
+.text6{
+   font-family:"Lato";
+   font-weight: 400;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 160%;
+   color: #424551;
+   height: 104px;
+   margin-bottom: 112px;
+
+}
+footer{
+   font-family:"Lato";
+   font-weight: 900;
+   font-size: 20px;
+   font-style: normal;
+   line-height: 160%;
+   color: #424551;
+   margin-bottom: 80px;
+   text-align: center;
+}
+
+
+
+
+
+.titlework{
+   font-family:"Lato";
+   font-weight: 900;
+   font-size: 25px;
+   font-style: normal;
+   color: blue;
+   height: 60px;
+   text-align: center;
+   border: 3px dashed cyan;
+   outline: 4px solid orange;
+   margin-bottom: 20px;
+   text-shadow: 25px 16px 3px royalblue, 60px 32px 3px greenyellow;
+
+}
+.work1{
+   font-family:"Lato";
+   font-weight: 700;
+   font-size: 16px;
+   font-style: normal;
+   text-indent: 25px;
+   display: block;
+   line-height: 1.7;
+   height: 90px;
+   margin-bottom: 50px;
+   overflow: scroll;
+}
+
+.point1{
+   font-family:"Lato";
+   font-weight: 700;
+   font-size: 25px;
+   text-indent: 25px;
+   box-shadow: 10px 15px 10px 10px red;
+   padding: 10px;
+   border-radius: 15px;
+   margin-bottom: 25px;
+   text-align: center;
+
+}
+.point2{
+   font-family:"Lato";
+   font-weight: 400;
+   font-size: 16px;
+   font-style: normal;
+   text-align: justify;
+   line-height: 1.7;
+   text-indent: 25px;
+}
+ul{
+   margin-bottom: 50px;
+}
+a{
+   display: block;
+   color: brown;
+}
+img{
+   max-width: 810px;
+   min-height: 200px;
+   border-radius: 20px;
+}
