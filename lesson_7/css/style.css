@@ -1,0 +1,191 @@
+
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+font-display: swap;
+font-weight: 900;
+font-style: normal;
+
+}
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+font-display: swap;
+font-weight: 700;
+font-style: normal;
+
+}
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.title_containerall{
+max-width: 1230px;
+
+}
+.title_container1{
+font-family:"Lato";
+font-weight: 900;
+font-size: 46px;
+font-style: normal;
+line-height: 130%;
+max-width: 810px;
+text-align: left;
+color: #1E212C;
+margin: 0 auto;
+margin-bottom: 92px;
+margin-top: 190px;
+box-sizing: border-box;
+}
+
+.content_containerall{
+   max-width: 1230px;
+}
+.content_container_img{
+   max-width: 810px;
+   margin: 0 auto;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-bottom: 60px;
+}
+
+.content_container_text1{
+font-family:"Lato";
+font-weight: 700;
+font-size: 20px;
+font-style: normal;
+line-height: 150%;
+max-width: 810px;
+box-sizing: border-box;
+text-align: left;
+color: #1E212C;
+margin: 0 auto;
+margin-bottom: 24px;
+}
+
+.content_container_text2{
+font-family:"Lato";
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+line-height: 160%;
+max-width: 810px;
+box-sizing: border-box;
+text-align: left;
+color: #424551;
+margin: 0 auto;
+margin-bottom: 48px;
+}
+.paragraph1{
+   margin-bottom: 33px;
+}
+
+.content_container_text3{
+font-family:"Lato";
+font-weight: 700;
+font-size: 20px;
+font-style: normal;
+line-height: 150%;
+max-width: 810px;
+box-sizing: border-box;
+padding-left: 58px;
+text-align: left;
+color:#1E212C;
+margin: 0 auto;
+margin-bottom: 48px;
+}
+
+.content_container_text4{
+font-family:"Lato";
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+line-height: 160%;
+max-width: 810px;
+box-sizing: border-box;
+text-align: left;
+color: #424551;
+margin: 0 auto;
+margin-bottom: 24px;
+}
+
+.content_container_text5{
+font-family:"Lato";
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+line-height: 170%;
+max-width: 810px;
+box-sizing: border-box;
+text-align: left;
+text-indent: 32px;
+color: #424551;
+margin: 0 auto;
+margin-bottom: 24px;
+}
+
+.content_container_text6{
+   font-family:"Lato";
+   font-weight: 400;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 160%;
+   max-width: 810px;
+   box-sizing: border-box;
+   text-align: left;
+   color: #424551;
+   margin: 0 auto;
+   margin-bottom: 60px;
+}
+
+.footer{
+max-width: 1230px;
+}
+
+.footer_container{
+font-family:"Lato";
+font-weight: 900;
+font-size: 28px;
+font-style: normal;
+line-height: 130%;
+max-width: 810px;
+text-align: left;
+color: #1E212C;
+margin: 0 auto;
+margin-bottom: 92px;
+box-sizing: border-box;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.workout{
+   background: coral url(../img/lesson_7_1.jpg);
+   margin-bottom: 100px;
+}
+.workout_containerall{
+   background: darkblue url(../img/lesson_7_2.jpg);
+   max-width: 1030px;
+   margin: 0 auto;
+   
+}
+
+.workout_container_text1{
+   background: crimson url(../img/lesson_7_3.jpg) center /contain no-repeat;
+   max-width: 810px;
+   margin: 0 auto;
+   height: 300px;
+}
