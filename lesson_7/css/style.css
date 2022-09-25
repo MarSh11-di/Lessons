@@ -1,0 +1,150 @@
+
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+font-display: swap;
+font-weight: 900;
+font-style: normal;
+
+}
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+font-display: swap;
+font-weight: 700;
+font-style: normal;
+
+}
+
+@font-face{
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+
+}
+
+body{
+   font-family: "Lato";
+   font-weight: 400;
+}
+
+
+
+.title__container1{
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+max-width: 810px;
+color: #1E212C;
+margin: 0 auto;
+margin-bottom: 92px;
+margin-top: 190px;
+}
+
+
+.content__img{
+   border-radius: 4px;
+   margin-bottom: 60px;
+   text-align: center;
+
+}
+
+.content__img img{
+   max-width:100%;
+}
+
+.content__containerall{
+   max-width: 810px;
+   margin: 0 auto;
+   text-align: left;
+   box-sizing: border-box;
+   color: #424551;
+}
+
+.content__text1{
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+margin-bottom: 24px;
+}
+
+.content__text2{
+line-height: 160%;
+margin-bottom: 48px;
+}
+.content__text2 p:not(:last-child){
+margin-bottom: 33px;
+}
+
+.content__text3{
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+padding-left: 58px;
+color:#1E212C;
+margin-bottom: 48px;
+background: url(../img/icons/braces.png) no-repeat;
+}
+
+.content__text4{
+line-height: 160%;
+margin-bottom: 24px;
+}
+
+.content__text5 li{
+line-height: 170%;
+padding-left: 32px;
+margin-bottom: 16px;
+min-height: 20px;
+background: url(../img/icons/Vector.png) 0 6px no-repeat;
+}
+
+.content__text5 ul{
+   margin-bottom: 37px;
+}
+.content__text6{
+   line-height: 160%;
+   margin-bottom: 60px;
+}
+
+
+.footer__container{
+max-width: 810px;
+font-weight: 900;
+font-size: 28px;
+line-height: 130%;
+color: #1E212C;
+margin: 0 auto;
+margin-bottom: 92px;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.workout{
+   background: coral url(../img/lesson_7_1.jpg);
+   margin-bottom: 100px;
+}
+.workout_containerall{
+   background: darkblue url(../img/lesson_7_2.jpg);
+   max-width: 1030px;
+   margin: 0 auto;
+   
+}
+
+.workout_container_text1{
+   background: crimson url(../img/lesson_7_3.jpg) center /contain no-repeat;
+   max-width: 810px;
+   margin: 0 auto;
+   height: 300px;
+}
