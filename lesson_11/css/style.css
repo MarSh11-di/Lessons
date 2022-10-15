@@ -1,0 +1,116 @@
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+body {
+   font-family: "Lato";
+   padding: 50px;
+}
+.wrapper {
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+}
+.header {
+   font-size: 40px;
+   font-weight: 900;
+   min-height: 100px;
+   width: 100%;
+   padding: 15px;
+   background-color: chartreuse;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100;
+}
+.car {
+   margin-top: 100px;
+   min-height: 150px;
+   max-width: 1200px;
+   background: url("../img/foto11.JPG") center / cover no-repeat;
+}
+
+.car__conteiner {
+   max-width: 500px;
+   padding: 50px;
+   position: relative;
+   margin-left: 300px;
+   top: 130px;
+}
+
+.car__body {
+   width: 300px;
+   height: 80px;
+   text-align: center;
+   padding: 25px;
+   background-color: blue;
+   position: relative;
+}
+.car__cabin {
+   width: 100px;
+   height: 100px;
+   text-align: center;
+   padding-bottom: 70px;
+   background-color: brown;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.wheels {
+   font-size: 10px;
+   width: 90px;
+   height: 90px;
+   padding-top: 40px;
+   text-align: center;
+   background-color: goldenrod;
+   border-radius: 50%;
+   position: relative;
+}
+.wheels--1 {
+   bottom: 10px;
+   left: 15px;
+}
+.wheels--2 {
+   bottom: 100px;
+   left: 190px;
+}
+.car__door {
+   width: 60px;
+   height: 70px;
+   padding-top: 50px;
+   text-align: center;
+   background-color: aqua;
+   position: absolute;
+   top: 25px;
+   left: 20px;
+}
+.car__window {
+   height: 30px;
+   width: 30px;
+   font-size: 10px;
+   background-color: darkgray;
+   position: absolute;
+   top: 33px;
+   left: 35px;
+}
