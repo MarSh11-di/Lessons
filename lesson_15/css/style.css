@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+   font-family: "Lato";
+   color: #424551;
+}
+.wrapper {
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.wrapper > main {
+   flex-grow: 1;
+}
+
+[class*="__container"] {
+   max-width: 1260px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+/* шапка прилипает и не скролится */
+.header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 0;
+   z-index: 100;
+}
+.header__container {
+   display: flex;
+   align-items: center;
+   gap: 60px;
+}
+.header__logo {
+}
+.header__menu {
+   flex-grow: 1;
+}
+
+.header__actions {
+}
+
+.menu {
+}
+.menu__list {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 40px;
+   row-gap: 10px;
+}
+.menu__item {
+}
+.menu__link {
+   font-weight: 700;
+}
+.menu__link:hover {
+   text-decoration: underline;
+}
+
+.actions-header {
+   flex-shrink: 0;
+   display: flex;
+   align-items: center;
+   gap: 36px;
+   flex-wrap: wrap;
+}
+
+.actions-header__button {
+}
+.actions-header__auth {
+   background: url(../img/icons/icons.svg) left no-repeat;
+   padding-left: 24px;
+   font-weight: 700;
+   line-height: 1.25;
+}
+.actions-header__auth:hover span {
+   text-decoration: underline;
+}
+.button {
+   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   line-height: 1.25;
+   padding: 16px 40px;
+   color: white;
+   display: inline-block;
+   border-radius: 4px;
+   position: relative;
+}
+.button--trans {
+   background: transparent;
+   color: #ff3f3a;
+   border: 1px solid #ff3f3a;
+   position: relative;
+   padding: 15px 40px;
+   transition: all 0.3s ease 0s;
+}
+.page {
+}
+.page__main {
+}
+
+.main-block {
+   padding: 200px 0px 80px 0px;
+   background: linear-gradient(55.95deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+   position: relative;
+}
+.main-block__container {
+   position: relative;
+   z-index: 2;
+}
+.main-block__body {
+   margin-bottom: 190px;
+}
+.main-block__advantagen {
+}
+
+.body-main {
+   display: flex;
+}
+
+.body-main__content {
+   flex: 0 1 50%;
+   padding-right: 40px;
+   align-self: center;
+}
+.body-main__play {
+   font-weight: 700;
+   font-size: 14px;
+   /* padding-left: 40px;
+   background: url(../img/icons/play.svg) left no-repeat; */
+   display: inline-flex;
+   align-items: center;
+   gap: 16px;
+   position: relative;
+}
+.body-main__play:not(:last-child) {
+   margin-bottom: 40px;
+}
+.body-main__play::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 52px;
+   height: 52px;
+   border-radius: 50%;
+   background: #ff3f3a;
+   opacity: 0.12;
+   transform: scale(1.6);
+   animation: play-circle 1s infinite ease alternate;
+}
+.body-main__play::before {
+   content: "";
+   flex: 0 0 52px;
+   width: 52px;
+   height: 52px;
+   border-radius: 50%;
+   background: #ff3f3a url(../img/icons/play.svg) center no-repeat;
+}
+
+@keyframes play-circle {
+   0% {
+      transform: scale(1.6);
+   }
+   100% {
+      transform: scale(1.8);
+   }
+}
+
+.body-main__play:hover::after {
+   animation-play-state: paused;
+}
+.body-main__title {
+   font-weight: 900;
+   font-size: 64px;
+   letter-spacing: 1;
+   line-height: 130%;
+   color: #1e212c;
+}
+.body-main__title:not(:last-child) {
+   margin-bottom: 60px;
+}
+.body-main__actions {
+   display: flex;
+   align-items: center;
+   gap: 24px;
+}
+.body-main__button {
+}
+.body-main__media {
+   flex: 0 1 50%;
+}
+.body-main__image {
+   max-width: 107.8%;
+   transform: translate(7.8%, 0px);
+   /* eсли нужно высунуть изображение за пределы контейнера на четкий размкр например 47px
+   max-width: 100%;
+   margin-right: -47px; */
+}
+
+.advantagen-main {
+   display: flex;
+   gap: 20px;
+   justify-content: space-between;
+   align-items: center;
+}
+.advantagen-main__item {
+}
+
+.item-advantagen {
+   display: flex;
+   color: #1e212c;
+   align-items: center;
+   gap: 12px;
+}
+
+.item-advantagen__value {
+   font-weight: 900;
+   font-size: 46px;
+   list-style: 130%;
+}
+.item-advantagen__text {
+   line-height: 1.5;
+}
+.advantagen-main__circle {
+   border-radius: 50%;
+   background: #ff3f3a;
+   flex: 0 0 8px;
+   height: 8px;
+}
+
+.main-block {
+}
+
+.main-block__decor {
+}
+
+.decor-main {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+.decor-main__item {
+   position: absolute;
+}
+.decor-main__item--ar {
+   background: url(../img/decor/around.svg) 0 0 no-repeat;
+   width: 284px;
+   height: 284px;
+   bottom: -9.2%;
+   left: -5.5%;
+}
+.decor-main__item--do {
+   background: url(../img/decor/dots.svg) 0 0 no-repeat;
+   width: 187px;
+   height: 137px;
+   right: -1.5%;
+   top: 69%;
+}
+.decor-main__item--ha {
+   background: url(../img/decor/halfaround.svg) 0 0 no-repeat;
+   width: 61px;
+   height: 61px;
+   left: 38%;
+   top: 70%;
+}
+.decor-main__item--li {
+   background: url(../img/decor/liap.svg) 0 0 no-repeat;
+   width: 88px;
+   height: 47px;
+   left: 40%;
+   top: 45%;
+}
+
+.decor-main__item--str {
+   background: url(../img/decor/strela.svg) 0 0 no-repeat;
+   width: 96px;
+   height: 96px;
+   top: 12%;
+   left: 4.2%;
+}
+.decor-main__item--stre {
+   background: url(../img/decor/strela.svg) 0 0 no-repeat;
+   width: 96px;
+   height: 96px;
+   top: -2.5%;
+   right: 5%;
+   transform: rotate(135deg);
+}
+
+.home-block {
+   padding: 180px 0;
+   position: relative;
+}
+
+.home-block__container {
+}
+.home-block__body {
+}
+
+.body-home {
+   display: flex;
+   justify-content: space-between;
+}
+.body-home__foto {
+   flex: 0 1 50%;
+}
+.body-home__image {
+   max-width: 100%;
+}
+.body-home__content {
+   flex: 0 1 50%;
+   padding-left: 135px;
+}
+.body-home__chapter {
+   font-weight: 700;
+   color: #1e212c;
+   text-transform: uppercase;
+   line-height: 150%;
+   letter-spacing: 1px;
+   margin-bottom: 8px;
+}
+.body-home__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1e212c;
+   margin-bottom: 40px;
+}
+.body-home__list {
+   line-height: 160%;
+   margin-bottom: 22px;
+}
+.body-home__item {
+   background: url(../img/home/gal.jpg) 0 5px no-repeat;
+   padding-left: 31px;
+   min-height: 25px;
+}
+
+.home-block {
+}
+.home-block__decor {
+}
+
+.decor-home {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+
+.decor-home__items {
+   position: absolute;
+}
+
+.decor-home__items--fr {
+   background: url(../img/home/Group.svg) 0 0 no-repeat;
+   height: 287.2px;
+   width: 287.2px;
+   top: 45%;
+   right: -6.6%;
+}
+
+.decor-home__items--kv {
+   background: url(../img/home/Groupkv.svg) 0 0 no-repeat;
+   width: 132.74px;
+   height: 181.18px;
+   top: 30%;
+   left: -0.5%;
+}
+
+/* делаем две кнопки с анимацией и сменой цветов
+.button {
+   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   line-height: 1.25;
+   padding: 16px 40px;
+   color: white;
+   display: inline-block;
+   border-radius: 4px;
+   position: relative;
+}
+.button span {
+   position: relative;
+   z-index: 2;
+}
+.button::before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   transition: opacity 0.3s ease 0s;
+   opacity: 0;
+   border-radius: 4px;
+   background: linear-gradient(55.95deg, #c93530 0%, #c94c04 100%);
+}
+.button:hover::before {
+   opacity: 1;
+}
+.button--trans {
+   background: transparent;
+   color: #ff3f3a;
+   border: 1px solid #ff3f3a;
+   position: relative;
+   padding: 15px 40px;
+   transition: all 0.3s ease 0s;
+}
+.button--trans:hover {
+   color: white;
+   border: 1px solid #ff3f3a;
+   background-color: #ff3f3a;
+} */
+
+/*добавляем границы для кнопки, две справа и лева и две сверху и снизу
+.button--trans::before,
+.button--trans::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   border-radius: 4px;
+}
+.button--trans::before {
+   left: 0;
+   border-left: 1px solid #ff3f3a;
+}
+.button--trans::after {
+   right: 0;
+   border-right: 1px solid #f75e05;
+}
+
+.button--trans span::before,
+.button--trans span::after {
+   content: "";
+   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+   position: absolute;
+   left: 0;
+   height: 1px;
+   width: 100%;
+   border-radius: 4px;
+}
+.button--trans span::before {
+   top: 0;
+}
+.button--trans span::after {
+   bottom: 0;
+} */
