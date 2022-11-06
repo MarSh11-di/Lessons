@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>lesson_16</title>
+</head>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+<body>
+   <div class="wrapper">
+      <header></header>
+      <main class="page">
+         <section class="page__home home-blok">
+      <div class="home-block__container">
+<div class="home-blok__body body-home">
+   <div class="body-home__foto">
+      <img class="body-home__image" src="img/illustration.svg" alt="illustration">
+   </div>
+   <div class="body-home__content">
+      <h3 class="body-home__chapter">Any questions?</h3>
+      <h1 class="body-home__title">Drop us a line</h1>
+      <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+      <div class="body-home__form home-form">
+         <div class="home-form__top">
+         <div class="home-form__name">
+            <label class="label-name" for="nome">First Name*</label>
+            <input  class="input-name" name="name" placeholder="Your first name" required id="nome" type="text">
+         </div>
+         <div class="home-form__surname">
+            <label class="label-name" for="surnome">Last Name*</label>
+            <input  class="input-name" name="name" placeholder="Your last name" required id="surnome" type="text">
+         </div>
+         <div class="home-form__email">
+            <label class="label-name" for="email">Email*</label>
+            <input  class="input-name" name="name" placeholder="Your working email" required id="email" type="email">
+         </div>
+         <div class="home-form__phone">
+            <label class="label-name" for="phone">Phone*</label>
+            <input  class="input-name" name="name" placeholder="Yor phone number" required id="phone" type="tel">
+         </div>
+      </div>
+      <div class="home-form__midl">
+         <div class="home-form__message">
+            <label class="label-name" for="message">Message*</label>
+            <textarea class="input-name input-name--message" name="message" placeholder="Yuor message" required id="message"></textarea>  
+         </div>
+      </div>
+      <div class="home-form__bottom">
+         <div class="home-form__checkbox">
+            <input class="input-name__checkbox" name="question"  id="agree" checked type="checkbox">
+            <label class="label-name__checkbox" for="agree"><span class="label-name__checkbox-text">I agree to receive communications from Createx Online School</span></label>
+            
+         </div>
+         <div class="home-form__button">
+            <button class="button" type="submit"><span class="button-text">Send message</span></button>
+         </div>
+      </div>
+         
+      </div>
+   </form>
+      
+   </div>
+</div>
+      </div>
+         </section>
+
+         <section class="homework">
+            <div class="animal__container">
+               <form class="homework__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                  <div class="animal__radio">
+                     <div class="animal__title">Улюблена тваринка</div>
+                     <div class="animal__blog">
+                        <div class="animal__content">
+                           <input class="animal__input" value="cat" name="pet"  id="01" type="radio">
+                           <label class="animal__label" for="01">Кiшка</label>
+                        </div>
+                        <div class="animal__content"> 
+                           <input class="animal__input" value="dog" name="pet"  id="02" type="radio">
+                           <label class="animal__label" for="02">Собака</label>
+                        </div>
+                        <div class="animal__content">
+                           <input class="animal__input" value="parror" name="pet"  id="03" type="radio">
+                           <label class="animal__label" for="03">Папуга</label>
+                        </div>
+                     </div>
+                     <div class="animal__button">
+                        <button class="button__animal" type="submit"><span>Send message</span></button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div class="file__container">
+               <div class="file__car">
+                  <form class="file__form" action="https://jsonplaceholder.typicode.com/posts" method="post"> 
+                     <div class="file__cars">
+                        <label class="file__label" form="car">Загрузiть фото бажаних авто</label>
+                        <input class="file__input" type="file" id="car" multiple accept="jpg, svg">
+                     </div>
+                     <div class="animal__button">
+                        <button class="button__animal" type="submit"><span>Send message</span></button>
+                     </div>
+                  </form>
+               </div>
+            </div>  
+            
+            <div class="select__container">
+               <form class="file__form" action="https://jsonplaceholder.typicode.com/posts" method="post"> 
+               <div class="select__dieta">
+                  <label class="dieta__label" for="diet">Виберiть бажаний вид дiети</label>
+                  <select class="dieta__select" name="lose" id="diet" multiple>
+                     <option class="dieta__option" selected value="lose-keto">Кето дiета</option>
+                     <option class="dieta__option" value="lose-protein">Бiлкова дiета</option>
+                     <option class="dieta__option" value="lose-kefir">Кефiрна дiета</option>
+                  </select>
+               </div>
+               <div class="animal__button">
+                  <button class="button__animal" type="submit"><span>Send message</span></button>
+               </div>
+               </form>
+            </div>
+         </section>
+      
+      </main>
+      <footer></footer>
+   </div>
+</body>
+</html> 
