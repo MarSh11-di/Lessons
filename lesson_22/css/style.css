@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+   font-family: "Lato";
+   font-size: 24px;
+   font-weight: 700;
+   color: #424551;
+}
+.wrapper {
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+[class*="__container"] {
+   max-width: 1260px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.header__container h1 {
+   text-transform: uppercase;
+   text-align: center;
+   color: red;
+   text-shadow: 1px 1px 5px black;
+}
+.header__container {
+   margin-bottom: 30px;
+}
+
+.topic {
+   color: slateblue;
+}
+h2 {
+   text-align: center;
+   color: green;
+   margin-bottom: 20px;
+}
+h3 {
+   margin-bottom: 20px;
+   color: lightseagreen;
+}
+.syntax__var p {
+   margin-bottom: 10px;
+}
+.syntax__var {
+   padding-left: 20px;
+}
+.error span {
+   color: crimson;
+}
+.error p {
+   font-size: 16px;
+   color: chocolate;
+   font-style: oblique;
+}
+.syntax {
+   margin-bottom: 30px;
+}
+
+.variable__topic h2 {
+   text-align: center;
+   color: green;
+}
+.error__var span {
+   color: crimson;
+}
+.variable__var {
+   padding-left: 20px;
+}
+.variable__var p {
+   margin-bottom: 10px;
+}
+.variable {
+   margin-bottom: 30px;
+}
+.data-type__var p {
+   margin-bottom: 10px;
+}
+.data-type__var {
+   padding-left: 20px;
+}
+.data-type {
+   margin-bottom: 30px;
+}
