@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+   font-family: "Lato";
+   font-size: 24px;
+   font-weight: 700;
+   color: #424551;
+}
+.wrapper {
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+[class*="__container"] {
+   max-width: 1260px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.header__container h1 {
+   text-transform: uppercase;
+   text-align: center;
+   color: red;
+   text-shadow: 1px 1px 5px black;
+}
+.header__container {
+   margin-bottom: 30px;
+}
+.forma {
+   position: relative;
+}
+.forma__form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.forma__serch {
+   position: relative;
+   z-index: 2;
+   width: 40px;
+   height: 40px;
+   background-color: darkcyan;
+   border-radius: 50%;
+   transition: all 1s ease 0s;
+   /* left: 10%; */
+}
+.forma__serch:hover {
+   background-color: darkgreen;
+}
+.forma__block {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: aquamarine;
+   padding: 5px 15px;
+   border-radius: 10px;
+   transition: all 0.9s ease 0s;
+   position: relative;
+   gap: 5px;
+   transform: scale(0);
+}
+.forma__line {
+   display: flex;
+   align-items: center;
+}
+.forma__input {
+   font-size: 14px;
+   padding: 4px 15px;
+}
+.forma__input:focus {
+   outline: 2px solid mediumseagreen;
+}
+.forma__input::placeholder {
+   color: green;
+   text-align: center;
+}
+
+.forma__button {
+   background: mediumturquoise;
+   font-size: 14px;
+   color: white;
+   padding: 4px 25px;
+   transition: all 0.3s ease 0s;
+}
+.forma__limit {
+   font-size: 10px;
+   align-self: flex-start;
+   color: goldenrod;
+   margin-left: 20px;
+}
+.forma__limit span {
+   color: red;
+}
+.forma._activ .forma__block {
+   transform: scale(1);
+}
